@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		755C332A1B4238D30047753C /* AddObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C33291B4238D30047753C /* AddObjectViewController.m */; };
 		756B33FF1B3D0BE200E3E382 /* SpaceImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756B33FE1B3D0BE200E3E382 /* SpaceImageViewController.m */; };
 		75C1BDCF1B3BF2A600BD9737 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1BDCE1B3BF2A600BD9737 /* main.m */; };
 		75C1BDD21B3BF2A600BD9737 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1BDD11B3BF2A600BD9737 /* AppDelegate.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		755C33281B4238D30047753C /* AddObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddObjectViewController.h; path = ../AddObjectViewController.h; sourceTree = "<group>"; };
+		755C33291B4238D30047753C /* AddObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddObjectViewController.m; path = ../AddObjectViewController.m; sourceTree = "<group>"; };
 		756B33FD1B3D0BE200E3E382 /* SpaceImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceImageViewController.h; sourceTree = "<group>"; };
 		756B33FE1B3D0BE200E3E382 /* SpaceImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceImageViewController.m; sourceTree = "<group>"; };
 		75C1BDC91B3BF2A600BD9737 /* SpaceTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +118,8 @@
 			children = (
 				75C1BDF21B3BF4C300BD9737 /* SpaceTableViewController.h */,
 				75C1BDF31B3BF4C300BD9737 /* SpaceTableViewController.m */,
+				755C33281B4238D30047753C /* AddObjectViewController.h */,
+				755C33291B4238D30047753C /* AddObjectViewController.m */,
 				75C1BDD01B3BF2A600BD9737 /* AppDelegate.h */,
 				75C1BDD11B3BF2A600BD9737 /* AppDelegate.m */,
 				75C1BDD61B3BF2A600BD9737 /* Main.storyboard */,
@@ -282,6 +287,7 @@
 				75C1BDF41B3BF4C300BD9737 /* SpaceTableViewController.m in Sources */,
 				75C1BDD21B3BF2A600BD9737 /* AppDelegate.m in Sources */,
 				75C1BDCF1B3BF2A600BD9737 /* main.m in Sources */,
+				755C332A1B4238D30047753C /* AddObjectViewController.m in Sources */,
 				75C1BDF71B3C001700BD9737 /* AstronomicalData.m in Sources */,
 				75D0D8621B3C3BAF0031B75C /* SpaceObject.m in Sources */,
 				756B33FF1B3D0BE200E3E382 /* SpaceImageViewController.m in Sources */,

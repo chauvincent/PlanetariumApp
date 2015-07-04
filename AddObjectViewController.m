@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIImage *orionImage = [UIImage imageNamed:@"Orion.jpg"];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:orionImage];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -34,4 +38,31 @@
 }
 */
 
+- (IBAction)cancelButtonPressed:(UIButton *)sender {
+   
+    [self.delegate didCancel];
+    
+}
+
+- (IBAction)addButtonPressed:(UIButton *)sender {
+    
+    SpaceObject *newObj = [self returnNewSpaceObject];
+    
+    [self.delegate addSpaceObject:newObj];
+    
+}
+
+-(SpaceObject *)returnNewSpaceObject{
+    
+    SpaceObject *addedObject = [[SpaceObject alloc ]init];
+    addedObject.name = self.nameTextField.text;
+    addedObject.nickname = self.nicknameTextField.text;
+    addedObject.diameter = [self.diameterTextField.text floatValue];
+    addedObject.temperature = [self.temperatureTextField.text floatValue];
+    addedObject.numMoons = [self.numberTextField.text intValue];
+    addedObject.randFact = self.randFactTextField.text;
+    addedObject.spaceImg = [UIImage imageNamed:@"EinsteinRing.jpg"];
+    
+    return addedObject;
+}
 @end

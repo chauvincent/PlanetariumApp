@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CE02B949-C374-4691-BA66-0C78BB6210D6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpaceTableView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>148F9E391A394D700AB2B6DDA01792B0FBB57AB1</key>
+		<string>https://github.com/chauvincent/PassingDataWithDelegatesExercise.git</string>
+		<key>3828F0F9B6A2B4A198BF4FD481966328D1678D16</key>
+		<string>https://github.com/chauvincent/PlanetariumApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SpaceTableView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>148F9E391A394D700AB2B6DDA01792B0FBB57AB1</key>
+		<string>../../..</string>
+		<key>3828F0F9B6A2B4A198BF4FD481966328D1678D16</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chauvincent/PlanetariumApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3828F0F9B6A2B4A198BF4FD481966328D1678D16</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>148F9E391A394D700AB2B6DDA01792B0FBB57AB1</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3828F0F9B6A2B4A198BF4FD481966328D1678D16</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SpaceTableView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -11,8 +11,12 @@
 #import "SpaceObject.h"
 #import "SpaceImageViewController.h"
 #import "SpaceDataViewController.h"
-@interface SpaceTableViewController : UITableViewController
+#import "AddObjectViewController.h"
+
+@interface SpaceTableViewController : UITableViewController <AddObjectViewControllerDelegate>
 
 @property (strong, nonatomic) NSMutableArray *planets;
+@property (strong, nonatomic) NSMutableArray *addedSpaceObjects;
+
 
 @end
